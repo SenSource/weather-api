@@ -48,7 +48,7 @@
      * @type {String}
      * @default https://api.weatherapi.com/v1
      */
-    this.basePath = 'https://api.weatherapi.com/v1'.replace(/\/+$/, '');
+    this.basePath = 'http://api.weatherapi.com/v1'.replace(/\/+$/, '');
 
     /**
      * The authentication methods to be included for all API calls.
